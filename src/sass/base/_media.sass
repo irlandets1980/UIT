@@ -1,0 +1,304 @@
+@media (max-width: 1400px )
+    .about
+        background: url(../img/Form-l.png) 0 100% no-repeat 
+@media (max-width: 1200px )
+    .header
+        &__logo
+          
+        &__subtitle
+            width: 600px
+    .about
+        background: url(../img/Form-l.png) 0 100% no-repeat
+   
+@media (max-width: 1020px )
+    .header
+        &__title
+            font-size: 18px
+        &__link
+            font-size: 12px
+        &__subtitle
+            width: 70%
+   
+@media (max-width: 991px )
+    .promo
+        min-height: 750px  
+    .header
+        &__menu
+            padding-left: 0
+        &__title
+            font-size: 13px
+        &__link
+            font-size: 11px
+        &__subtitle
+            width: 70%
+            font-size: 20px
+        &__logo
+            width: 120px
+            height: 100px
+    .structure
+        &__title
+            height: 100px
+        &__list
+            padding: 25px
+        &__element
+            font-size: 15px
+    a
+        font-size: 12px
+    .about
+        &__img
+            width: 300px
+        &__title
+            width: 95%
+    .portfolio
+        &__img
+            width: 400px
+    .title
+        font-size: 28px
+
+@media (max-width: 768px )
+    .title
+        margin-top: 50px
+        font-size: 20px
+    .promo
+        min-height: 650px       
+    .header
+        &__subtitle
+            font-size: 16px
+       
+        &__menu
+            position: fixed
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            top: 0
+            left: -100%
+            width: 50%
+            height: 100vh
+            padding: 20px 15px
+            background-color: rgba(0,0 ,0 ,.7 )
+            transition: 0.6s all
+            z-index: 5
+            &_active
+                left: 0 
+        &__link
+            font-size:  20px
+            line-height: 50px
+        &__hamburger
+            display: block
+            position: absolute
+            right: 20px
+            top: 8%
+            transform: translateY(-50%)
+            width: 50px
+            height: 42px
+            span
+                display: block
+                height: 4px
+                width: 100%
+                background-color: $thirty_color
+                margin-bottom: 2px
+                transition: 0.5s all
+            &_active
+                span
+                    margin-bottom: -2px
+                    &:nth-child(1)
+                        transform: translateY(5px) rotate(-45deg)
+                    &:nth-of-type(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: translateY(3px) rotate(45deg)
+    .structure
+        padding-top: 10px
+        &__wrapper
+            margin-top: 40px
+        &__item
+            margin-top: 20px                 
+    .about
+
+        background: none
+        min-height: 324px
+        padding-top: 0px
+        &__img
+            margin-top: 70px
+            width: 230px
+            height: 230px
+        &__title
+            width: 85%
+    .portfolio
+        min-height: 380px
+        &__img
+            margin-top: 100px
+            width: 200px
+            height: 200px
+    .structure
+        &__wrapper
+            flex-wrap: wrap
+            justify-content: center
+        &__card
+            margin: 10px 0 10px 0
+        &__title
+            height: 40px
+    .team
+        &__wrapper
+            margin-top: 10px
+        &__content
+            margin-top: 50px
+        &__tabs
+            margin-top: 40px
+    .overlay
+        .modal
+            width: 380px
+            display: block
+@media (max-width: 575px )
+  
+    .buttons
+        margin-bottom: 20px
+        width: 163px
+        height: 39px
+        font-size: 10px
+    .title
+        margin-top: 20px
+        font-size: 20px
+    .promo
+        min-height: 650px
+        padding: 37px 82px 20px 32px
+    .header
+        &__subtitle
+            font-size: 12px
+            
+            width: 80%
+        &__hamburger
+            right: 20px
+            top: 30px
+            width: 30px
+        &__link
+            font-size: 13px
+    .structure
+        padding-top: 10px
+        &__wrapper
+            margin-top: 40px
+        &__item
+            margin-top: 20px
+    .about
+        background: none
+        &__block
+            flex-wrap: wrap
+            padding: 20px 20px 0 20px
+        &__title
+            font-size: 14px
+            width: 100%
+    .portfolio
+        min-height: 200px
+        &__block
+            padding: 20px 20px 0 20px
+            flex-wrap: wrap
+            min-height: 40px
+            padding-bottom: 30px
+            
+        &__text
+            padding: 20px 20px 0 20px
+            margin-top: 0px
+            width: 100%
+         
+        &__img
+            display: none
+            margin-top: 0
+            width: 50%
+        &__img2
+            display: none
+            width: 50%
+            margin: 0 auto
+    .carousel
+        margin-top: 20px
+    .team
+        &__content
+            margin-top: 0px
+        &__tab
+            width: 60px
+            div
+                display: none
+        &__img
+            width: 38px
+    .overlay
+        .modal
+            width: 280px
+            display: block
+        .modal-min
+            width: 280px
+            display: block
+    .footer
+        &__contact
+            font-size: 12px
+            width: 300px
+   
+    .feed-form
+        input
+            width: 200px
+        textarea
+            width: 200px
+@media (max-width: 320px )
+    .buttons
+        margin-bottom: 20px
+    .title
+        font-size: 14px
+        margin-top: 20px
+    .promo
+        padding: 27px 82px 0 22px
+       
+        min-height: 500px
+    .header
+        &__hamburger
+            right: 0px
+            top: 30px
+            width: 30px
+        &__subtitle
+            font-size: 10px
+    .about    
+          
+        padding-top: 5px
+        background: none
+        &__title
+            width: 100%
+        &__img
+            width: 100%
+         
+    .portfolio  
+        min-height: 200px
+        padding-bottom: 0px
+        &__text
+            padding: 20px 20px 0 20px
+        &__title
+            width: 100%
+        &__block
+            flex-wrap: wrap
+       
+      
+    .carousel
+        margin-top: 50px
+    .team
+        &__tab
+            width: 40px
+            div
+                display: none
+        &__img
+            width: 30px
+    .footer
+        &__contact
+            font-size: 12px
+            width: 250px
+    .overlay
+        .modal
+            width: 280px
+            display: block
+        .modal-min
+            width: 280px
+            display: block
+    .feed-form
+        input
+            width: 200px
+            height: 30px
+        textarea
+            width: 200px
+            height: 50px
+
+ 

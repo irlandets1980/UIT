@@ -1,0 +1,118 @@
+.overlay
+    position: fixed
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0 ,0 ,.56 )
+    top: 0
+    display: none
+    &__title
+        font-size: 18px
+        font-weight: bold
+        font-family: $main_font
+        color: $second_color
+        text-align: center
+        padding: 0px
+    &__subtitle
+        margin-top: 30px
+        font-family: $main_font
+        margin-bottom: 30px
+    li
+        font-family: Neucha
+    &__ul
+        color: $thirty_color
+        font-size: 13px
+        font-family: $main_font
+        padding-left: 0px
+    &__subul
+        color: $main_color
+        padding-left: 20px
+.modal 
+    box-shadow:  0 2px 3px rgba(0,0,0,0.4)
+    border-radius: 5px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 580px
+    min-height: 400px
+    background-color: #f2f2f2
+    padding: 28px 40px 40px 40px
+    overflow: auto
+    &__close
+        position: absolute
+        top: 10px
+        right: 10px
+        font-size: 40px
+        line-height: 21px
+        color: $thirty_color
+        cursor: pointer
+    &__subtitle
+        color: #0d0d0d
+        font-size: 18px
+        font-weight: 700
+        text-align: center
+    &__descr
+        font-size: 14px
+        font-weight: 500
+        text-align: center
+        text-align: center
+    &_mini
+        min-height: 140px
+    .error
+        border: 1px solid red
+        text-align: center
+    label.error
+        border: none
+        text-align: center
+        margin-bottom: 15px
+.modal-min
+    box-shadow:  0 2px 3px rgba(0,0,0,0.4)
+    border-radius: 5px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 380px
+    min-height: 300px
+    background-color: #f2f2f2
+    padding: 28px 40px 40px 40px
+    overflow: hidden
+    &__close
+        position: absolute
+        top: 10px
+        right: 10px
+        font-size: 40px
+        line-height: 21px
+        color: $thirty_color
+        cursor: pointer
+    &__subtitle
+        color: #0d0d0d
+        font-size: 18px
+        font-weight: 700
+        text-align: center
+    &__descr
+        font-size: 14px
+        font-weight: 500
+        text-align: center
+        text-align: center
+    &_mini
+        width: 280px
+        min-height: 140px
+    .error
+        border: 1px solid red
+        text-align: center
+    label.error
+        border: none
+        text-align: center
+        margin-bottom: 15px
+#consultation, #order, #thanks,  #mis, #sed, #test, #sa
+    display: none
+
+    
+
+ 
+
+
+
+
+

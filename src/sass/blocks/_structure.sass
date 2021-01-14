@@ -1,0 +1,80 @@
+.structure
+    padding-top: 90px
+    min-height: 670px
+
+    &__wrapper
+        margin-top: 100px
+        display: flex
+        justify-content: space-between
+        justify-items: center
+    &__item
+        position: relative
+        width: 237px
+        min-height: 337px
+        perspective: 1000px
+        
+    &__img
+        display: block
+        width: 100px
+        height: 100px
+        margin: 0 auto
+        cursor: pointer
+    &__title
+        font-family: $main_font
+        font-size: 18px
+        font-weight: bold
+    
+        text-align: center
+        color: $main_color
+        margin-top: 38px
+    &__subtitle
+        font-family: $main_font
+        font-size: 15px
+        font-weight: normal
+        line-height: 1.73
+        letter-spacing: normal
+        text-align: center
+        color: #2f2f2f
+        margin-top: 21px
+    &__more
+        color: #8e34ef
+        font-weight: bold
+        font-size: 30px
+    &__card 
+        width: 300px
+        height: 400px
+        position: relative
+        perspective: 1000px    
+    &__front, &__back 
+        position: absolute
+        width: 90%
+        height: 100%
+        left: 0
+        top: 0
+        display: flex
+        justify-content: center
+        align-items: top
+        transition: 1.4s
+        backface-visibility: hidden
+        background-color: #fff 
+            
+    &__back 
+        transform: rotateY(180deg)
+    &__card:hover &__front 
+        transform: rotateY(180deg)
+    &__card:hover &__back 
+        transform: rotateY(360deg)
+    &__list
+        display: flex
+        justify-content: space-around
+        flex-direction: column
+        width: 95%
+        height: 100%
+        padding: 30px
+        border: 2px solid #8e34ef
+        border-radius: 20px
+    &__element
+      
+      
+        span
+            color: #8e34ef

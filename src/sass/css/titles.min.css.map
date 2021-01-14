@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../blocks/titles.csass"
+    ],
+    "names": [],
+    "file": "titles.min.css"
+}

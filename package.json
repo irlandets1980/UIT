@@ -1,0 +1,35 @@
+{
+  "name": "project_uber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irlandets1980/uber_udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irlandets1980/uber_udemy/issues"
+  },
+  "homepage": "https://github.com/irlandets1980/uber_udemy#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "description": ""
+}
